@@ -1,8 +1,4 @@
-# Pygame Zero Pac Man Tutorial
+# Python Pond Quiz - for Mu and Pygame Zero
 
-Read the docs at https://pygamezero-pacman.readthedocs.io/
-
-# Credits
-
-Inspired by project in [Wireframe Magazine](https://magpi.raspberrypi.org/articles/code-pac-man-in-python). The images have been copied from the GitHub repo. 
+Read the docs at https://python-pond-quiz.readthedocs.io/
 
