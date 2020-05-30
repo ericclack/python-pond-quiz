@@ -44,5 +44,5 @@ Test your program, you should see your background.
 Next up...
 ----------
 
-In part two of this tutorial we'll add some welcome text :ref:`part2`.
+In part two of this tutorial we'll add some welcome text: :ref:`part2`.
 
