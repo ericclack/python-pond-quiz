@@ -48,6 +48,24 @@ Click on the Part 1 link below to get started.
    part4
    part5
 
+Helping out
+-----------
+
+This tutorial has been written with ninjas at `Coder Dojo Brighton`_ .
+
+We find it works really well if a mentor guides each ninja through
+each step.
+
+Beginners are likely to have problems with:
+
+* Saving code in the first step to :code:`mu_code`
+* Indenting things correctly
+* Adding new code to existing functions.
+
+We've found that this pad tool works really well for debugging.
+Both mentor and ninjas can see and edit the code at the same time
+https://pad.riseup.net/
+
 Get in touch
 ------------
 
@@ -56,3 +74,4 @@ any other feedback. Get in touch with the author: |author|
  
 .. _`Mu`: https://codewith.mu/en/download
 .. _`PygameZero`: https://pygame-zero.readthedocs.io/en/stable/
+.. _`Coder Dojo Brighton`: https://www.coderdojobrighton.co.uk/

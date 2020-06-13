@@ -21,6 +21,9 @@ really help you remember how to program.
 
 When you press *Play* you'll have to save your script and give the file a name. Check that it saves in `mu_code` directory -- it should do this for you.
 
+* On a Mac this is :code:`/Users/yourname/mu_code`
+* On Windows this is :code:`C:\Users\yourname\mu_code`
+
 You shuld see a black screen with the title *Pond Quiz*.
 
 Add the background
