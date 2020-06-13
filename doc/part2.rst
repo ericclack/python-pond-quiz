@@ -75,6 +75,6 @@ Time to test again. Pressing Space should remove the welcome message ready for o
 Next up...
 ----------
 
-In part three of this tutorial we'll add some animal images. 
+In part three of this tutorial we'll add some animal images: :ref:`part3`.
 
 .. _`Pygame Colour List`: https://github.com/pygame/pygame/blob/master/src_py/colordict.py#L23
