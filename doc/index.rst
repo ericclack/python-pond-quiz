@@ -5,7 +5,8 @@ Let's use the excellent `Mu`_ editor and `PygameZero`_ library
 to build a simple quiz in Python. You could pick any topic -- here
 we're using pond life. 
 
-This tutorial is not too hard, it should be suitable for beginners. 
+This tutorial is not too hard, it should be suitable for Python
+beginners.
 
 Getting set up
 --------------
@@ -65,9 +66,9 @@ Beginners in Python are likely to have problems with:
 * Indenting things correctly, especially `if-statements`
 * Adding new code to existing functions.
 
-We've found this online tool works really well for debugging:
-https://pad.riseup.net/ -- it enables both mentor and student see and
-edit the code at the same time.
+When mentoring remotely we've found this online tool works really well
+for debugging: https://pad.riseup.net/ -- it enables both mentor and
+student see and edit the code at the same time.
 
 
 Get in touch

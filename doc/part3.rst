@@ -47,26 +47,31 @@ already on your computer...
 On a Mac
 ........
 
-You can use Preview:
+You can use the *Preview* application:
 
 * Open the image in Preview first -- try double clicking the image to do this
-* There's a tiny A icon on the right, next to the search bar - Show Markup Toolbar
-* On that tool bar there's a little box with diagonal arrows inside for *Adjust Size*
-* Click that icon, now you can resize, and finally save the image.
+* Now toose *Adjust Size* from the *Tools* menu
+* Resize your image, and finally save the image.
 
 On a Windows computer
 .....................
 
-[To be completed]
+You can use the *Paint* application:
+
+* Open Paint, then open your image with the menu *File* and then *Open*
+* On the Home tab of the Paint toolbar, click the *Resize* button
+* Resize your image, and finally save the image.
 
 Overlapping images
 ------------------
   
-Are you happy with your images now? 
+Once you've resized your images it is time to test again. Are you
+happy with your images now? They could be overlapping each other.
 
-* they are overlapping
-* Do you see the bit in your code `x*150` ?
-* Try numbers bigger than 150 to fix this
+To fix the overlapping:
+
+* Find the two places in the code that have :code:`x*150`
+* Try numbers bigger than :code:`150` to fix this.
 
 
 Next up...

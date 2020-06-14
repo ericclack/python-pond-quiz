@@ -12,8 +12,8 @@ In part 5 we'll add an end to the quiz.
 What's the score?
 -----------------
 
-Let's add a score. We can increase it when the player gets an answer correct and
-reduce it when they get one wrong.
+Let's add a score. We can increase it when the player gets an answer
+correct and reduce it when they get one wrong.
 
 Add this line near the top of your code under your questions array: ::
 
@@ -41,15 +41,18 @@ these new lines: ::
 
 You don't need to add the comments starting with :code:`#`.
 
-Now test again, making sure to get some answers wrong to see the score change.
+Now test again, making sure to get some answers wrong to see the score
+change.
 
 The end sequence
 ----------------
 
-Currently the code ends with an error after the last question, let's fix this.
+Currently the code ends with an error after the last question because
+we run out of questions and the code doesn't check for this, let's fix
+this.
 
-At the end of your :code:`on_key_up` function add this code to test when there
-are no more questions: ::
+At the end of your :code:`on_key_up` function add this code to test
+when there are no more questions: ::
 
   # No more questions left
   if not questions:
@@ -73,7 +76,7 @@ Now we can add an end sequence. In :code:`draw` add this code... ::
           fontsize=40,
       )
 
-We can add more too, let's tell the user how they did: ::
+We can add more information too, let's tell the user how they did: ::
 
       if score == len(question_images):
           message = "You are a genius!"
@@ -89,6 +92,7 @@ We can add more too, let's tell the user how they did: ::
           fontsize=40,
       )      
 
+Feel free to change those messages! 
 
 Right or wrong?
 ---------------
