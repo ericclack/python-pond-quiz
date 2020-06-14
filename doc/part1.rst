@@ -19,12 +19,18 @@ Type in the following code: ::
 Try not to just copy and paste, because the typing practice will
 really help you remember how to program.
 
-When you press *Play* you'll have to save your script and give the file a name. Check that it saves in `mu_code` directory -- it should do this for you.
+When you press *Play* you'll have to save your script and give the
+file a name. Check that it saves in `mu_code` directory -- it should
+do this for you.
 
 * On a Mac this is :code:`/Users/yourname/mu_code`
 * On Windows this is :code:`C:\Users\yourname\mu_code`
 
 You shuld see a black screen with the title *Pond Quiz*.
+
+If you don't have a *Play* button but instead have *Run* then you need
+change the *Mode* to *Pygame Zero*, click the first button on the
+toolbar to do this.
 
 Add the background
 ------------------

@@ -3,13 +3,14 @@
 Part 3
 ======
 
-In part 3 we'll add images for the quiz answers and show them on the screen so that
-the player can choose them in the quiz.
+In part 3 we'll add images for the quiz answers and show them on the
+screen so that the player can choose them in the quiz.
 
 Adding answer images
 --------------------
 
-Above your draw function add this line to store our animal answers: ::
+Above your draw function add this line to store our animal answers; it
+creates an empty list: ::
 
   answer_images = [ ]
 
@@ -18,37 +19,40 @@ E.g. https://www.google.com/search?q=frog+uk
 
 Save the image to `mu_code/images` as before with nice short names.
 
-Now update your `answer_images` with each image you find. E.g. I have this: ::
+Now update your `answer_images` list with each image you find, wrapped
+in quotes. E.g. I have this: ::
 
   answer_images = ['newt.jpg', 'frog.jpg', ]
 
-Now we only want to draw the animals if we've started playing. And we need to draw each image in turn and draw it across the screen.
+Now we only want to draw the animals if we've started playing. And we
+need to draw each image in turn and draw it across the screen.
 
-So add this code inside draw indented 4 spaces: ::
+So add this code inside your :code:`draw` function: ::
 
   if state == 'play':
       for x,i in enumerate(answer_images):
           screen.blit(i, (x*150, 25))
           screen.draw.text(str(x+1), (x*150, 25), color='white', fontsize=40)
 
-Now test. Are the images are too big?
-OK, so make each of your images the same size, maybe 200px across?
+Now it's time to test. Are the images too big? OK, so we need to make
+each of your images the same size, maybe 200px across?
 
   
 Resizing images
 ---------------
 
-Do you know how to resize them? You probably have a program to do this
-already on your computer.
+Do you know how to resize images? You probably have a program to do this
+already on your computer...
 
 On a Mac
 ........
 
-You can use Preview. 
+You can use Preview:
 
-* Open the image in Preview first
-* There's a tiny A icon - Show Markup Toolbar
-* Click that then you can resize and save.
+* Open the image in Preview first -- try double clicking the image to do this
+* There's a tiny A icon on the right, next to the search bar - Show Markup Toolbar
+* On that tool bar there's a little box with diagonal arrows inside for *Adjust Size*
+* Click that icon, now you can resize, and finally save the image.
 
 On a Windows computer
 .....................

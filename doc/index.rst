@@ -48,23 +48,27 @@ Click on the Part 1 link below to get started.
    part4
    part5
 
-Helping out
------------
+A guided approach
+-----------------
 
-This tutorial has been written with ninjas at `Coder Dojo Brighton`_ .
+This tutorial has been written with the young people that come to
+`Coder Dojo Brighton`_ .
 
-We find it works really well if a mentor guides each ninja through
-each step.
+We find it works really well if a mentor guides each person through
+the tutotial step by step. Anyone that knows a bit of coding can be a
+good mentor.
 
-Beginners are likely to have problems with:
+Beginners in Python are likely to have problems with:
 
 * Saving code in the first step to :code:`mu_code`
-* Indenting things correctly
+* Saving images to :code:`mu_code/images`
+* Indenting things correctly, especially `if-statements`
 * Adding new code to existing functions.
 
-We've found that this pad tool works really well for debugging.
-Both mentor and ninjas can see and edit the code at the same time
-https://pad.riseup.net/
+We've found this online tool works really well for debugging:
+https://pad.riseup.net/ -- it enables both mentor and student see and
+edit the code at the same time.
+
 
 Get in touch
 ------------
