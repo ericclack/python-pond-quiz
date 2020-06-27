@@ -67,7 +67,7 @@ So you code should look like this: ::
 Check that your game still works and that the background and text
 still display OK.
 
-OK, now let's spot the user pressing space and remove the welcome
+OK, now let's spot the player pressing space and remove the welcome
 message...
 
 Add this new function at the end of your code: ::

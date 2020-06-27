@@ -74,7 +74,7 @@ Now we can add an end sequence. In :code:`draw` add this code... ::
           fontsize=40,
       )
 
-We can add more information too, let's tell the user how they did: ::
+We can add more information too, let's tell the player how they did: ::
 
       if score == len(question_images):
           message = "You are a genius!"
@@ -131,7 +131,7 @@ Add this line: ::
 Right or wrong?
 ---------------
 
-Let's tell the user in the game screen when they get something right or wrong.
+Let's tell the player in the game screen when they get something right or wrong.
 
 [todo]
 

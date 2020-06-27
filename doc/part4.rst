@@ -39,7 +39,7 @@ from the question list: ::
   n,q = questions[0]
   screen.blit(q, (25, HEIGHT/2 + 50))
 
-Now we have to let the user answer each question...
+Now we have to let the player answer each question...
 
 Answer the question
 -------------------
@@ -50,7 +50,7 @@ Do you see where we spot the SPACE key? What function is it in? ::
 
 Yes. OK a few lines to add now...
 
-What we are doing is watching for the user's key presses.
+What we are doing is watching for the player's key presses.
 
 They can press the number keys to answer each question
 
@@ -82,7 +82,7 @@ Now add these lines under the if-statement (I've repeated the if-statement again
 
 Great. So here's where we are:
 
-If the user presses a number key, we get the next question number in :code:`n`.
+If the player presses a number key, we get the next question number in :code:`n`.
 
 We work out what answer they've given and store it in :code:`answer`
 
