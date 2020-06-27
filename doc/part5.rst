@@ -3,10 +3,8 @@
 Part 5
 ======
 
-In part 5 we'll add an end to the quiz. 
-
-  This part is very rough and includes chat sessions from our Coder Dojo session. I'll
-  fix these soon so that it is easier to follow. 
+In part 5 we'll add an end to the quiz, but also fix a huge bug in the
+program that makes the quiz way too easy.
   
   
 What's the score?
@@ -15,7 +13,7 @@ What's the score?
 Let's add a score. We can increase it when the player gets an answer
 correct and reduce it when they get one wrong.
 
-Add this line near the top of your code under your questions array: ::
+Add this line near the top of your code under your questions lists: ::
 
   score = 0
 
@@ -93,6 +91,42 @@ We can add more information too, let's tell the user how they did: ::
       )      
 
 Feel free to change those messages! 
+
+Randomise the questions
+-----------------------
+
+You might have noticed a huge problem in our quiz... the answers are
+always simply the sequence 1,2,3... let's fix this by randomising the
+questions and answers.
+
+We can do this by shuffling the question and answer lists, but we need
+to shuffle them together otherwise they won't match up.
+
+First, let's import the `random` library, put this line at the top of
+your code: ::
+
+  import random
+
+Now let's `zip` the two lists together, shuffle them, then unzip them. Add
+this just under where you set up your `answer_images` and `question_images`
+lists: ::
+
+  qa = list(zip(answer_images, question_images))
+  random.shuffle(qa)
+  answer_images, question_images = zip(*qa)
+
+This puts the questions and answers in a random order, but it still
+means that the answers are always 1,2,3...
+
+So finally, let's shuffle the questions:
+
+Under this line: ::
+
+  questions = list(enumerate(question_images))
+
+Add this line: ::
+  
+  random.shuffle(questions)
 
 Right or wrong?
 ---------------
